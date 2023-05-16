@@ -1,0 +1,45 @@
+.container-signIn {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.container-signIn::before {
+  content: "";
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-image: url('../../images/home.jpg');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(3px); 
+  z-index: -1; */
+}
+.sign-up {
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .signup-form {
+    padding-top: 60px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    
+    
+  }
+  
+  .signin-onUp {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+  }
