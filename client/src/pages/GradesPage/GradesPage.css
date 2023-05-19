@@ -1,0 +1,8 @@
+.container-grade {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: auto;
+    display: flex;
+  }

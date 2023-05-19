@@ -3,9 +3,10 @@ import React, { useEffect, useState } from 'react';
 import { MoodleContractAddress } from '../../config';
 import { ethers } from 'ethers';
 import MoodleAbi from '../../utils/Moodle.json'
-import Course from '../../components/course/Course';
+
 import UniversityImage from "../../images/university.jpg"
 import './CoursePage.css'
+import Course from '../../components/courses/Course';
 const CoursesPage = () => {
     const [courses, setCourses] = useState([]);
     const [currentAccount, setCurrentAccount] = useState('');

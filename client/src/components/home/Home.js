@@ -149,7 +149,7 @@ const Home = () => {
         }
     };
     const handleCourseSelect = (event, value) => {
-        setSelectedCourse(value?.fullname || '');
+        setSelectedCourse(value?.shortname || '');
         console.log(selectedCourse)
     };
 
@@ -204,7 +204,7 @@ const Home = () => {
 
                                         id="tags-outlined"
                                         options={enrolledCoursesList}
-                                        getOptionLabel={(option) => option?.fullname || ''}
+                                        getOptionLabel={(option) => option?.shortname || ''}
                                         filterSelectedOptions
                                         onChange={handleCourseSelect}
                                       

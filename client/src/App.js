@@ -22,6 +22,8 @@ import BadgesPage from './pages/BadgesPage/BagdesPage';
 import BadgeList from './components/badges/BadgeList';
 import BadgesRoutes from './routes/BadgesRoutes';
 import CompetenciesRoutes from './routes/CompetenciesRoutes';
+import Grades from './components/grades/Grades';
+import GradesRoutes from './routes/GradesRoutes';
 
 function App() {
   const [web3, setWeb3] = useState(null);
@@ -103,6 +105,7 @@ function App() {
               <Route path="/courses" element={<CoursesPage />} />
               <Route path="badges/*" element={<BadgesRoutes />} />
               <Route path="competencies/*" element={<CompetenciesRoutes />} />
+              <Route path="grades/*" element={<GradesRoutes />} />
             </Routes>
 
           </div>
