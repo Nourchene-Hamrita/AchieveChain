@@ -1,2 +1,2 @@
-export const MoodleContractAddress = "0x78e6B135B2A7f63b281C80e2ff639Eed32E2a81b"
-export const AuthContractAddress = "0xB737dD8FC9B304A3520B3bb609CC7532F1425Ad0"
+export const MoodleContractAddress = "0xA7918D253764E42d60C3ce2010a34d5a1e7C1398"
+export const AuthContractAddress = "0x93C7a6D00849c44Ef3E92E95DCEFfccd447909Ae"

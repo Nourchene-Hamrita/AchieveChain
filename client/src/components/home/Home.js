@@ -170,7 +170,7 @@ const Home = () => {
                         <LocalLibraryIcon style={{ width: 40, height: 40 }} />
                     </Avatar>
                     <Typography component="h1" variant="h5" color="secondary">
-                        Manage your Academic Career
+                        Manage your Academic Achievements
                     </Typography>
                     <div>
                         <div>

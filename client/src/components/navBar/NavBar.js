@@ -78,9 +78,9 @@ const NavBar = () => {
           AchieveChain
         </Typography>
         <School sx={{ display: { xs: "block", sm: "none" } }} />
-        <Search >
+        {/* <Search >
           <InputBase placeholder="Search..." />
-        </Search>
+        </Search> */}
         <Icons>
           <Badge badgeContent={4} color="error">
             <Mail />

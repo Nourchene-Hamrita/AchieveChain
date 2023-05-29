@@ -1,6 +1,7 @@
 pragma solidity ^0.8.9;
 
 contract Moodle {
+    
     event AddCourse(address recipient, uint courseId);
     event AddBadge(address recipient, uint badgeId);
     event AddCompetency(address recipient, uint competencyId);
