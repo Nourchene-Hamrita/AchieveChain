@@ -66,7 +66,7 @@ const SignUp = (props) => {
     return (
         <div className='container-signUp' >
             <div className="sign-up">
-                Create an account
+                Create an Account
                 <div className='signup-form'>
                     <Card fluid centered>
                         <Card.Content>

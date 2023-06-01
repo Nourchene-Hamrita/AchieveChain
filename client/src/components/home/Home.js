@@ -54,7 +54,7 @@ const Home = () => {
             wsfunction: "core_enrol_get_users_courses",
             wstoken: studentToken,
             moodlewsrestformat: "json",
-            userid: 3
+            userid: 2
         });
         fetch(moodleUrl + URLParams)
             .then((response) => response.json())
@@ -207,12 +207,12 @@ const Home = () => {
                                         getOptionLabel={(option) => option?.shortname || ''}
                                         filterSelectedOptions
                                         onChange={handleCourseSelect}
-                                      
+
                                         renderInput={(params) => (
                                             <TextField
                                                 {...params}
                                                 placeholder="Course Name"
-                                              
+
                                             />
                                         )}
                                     />
@@ -239,6 +239,7 @@ const Home = () => {
                                 </Grid>
                                 <Grid item xs={12} sm={9}>
                                     <button
+                                        style={{ justifyContent: "center", alignItems: "center" }}
                                         onClick={submitCourse} >
                                         Add Course
                                     </button>

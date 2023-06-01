@@ -79,7 +79,7 @@ const SignIn = (props) => {
     return (
         <div className='container-signIn'>
             <div className="sign-up">
-                Sign in to your account
+                Sign in to your Account
                 <div className='signup-form'>
                     <Card fluid centered>
                         <Card.Content>

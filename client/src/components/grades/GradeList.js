@@ -87,7 +87,7 @@ const GradeList = () => {
             setTxError(error.message);
         }
     };
-    const deleteBadge = async (gradeId) => {
+    const deleteGrade = async (gradeId) => {
         try {
             const { ethereum } = window;
 
@@ -215,7 +215,7 @@ const GradeList = () => {
                                                 aria-label="modifier club"
                                                 size="small"
                                                 style={{ backgroundImage: 'none' }}
-                                                onClick={() => deleteBadge(grade.id)}
+                                                onClick={() => deleteGrade(grade.id)}
                                             >
                                                 <DeleteIcon color="error" />
                                             </IconButton>

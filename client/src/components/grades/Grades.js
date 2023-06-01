@@ -123,9 +123,9 @@ const Grades = () => {
             console.log('Error connecting to metamask', error)
         }
     };
-    const submitGrade = async (gradeId) => {
+    const submitGrade = async (grade) => {
         // Find the grade with the matching ID in the gradesList
-        const grade = gradesList.find((grade) => grade.id === gradeId);
+        //const grade = gradesList.find((grade) => grade.id === gradeId);
 
         if (grade) {
             try {
@@ -235,7 +235,7 @@ const Grades = () => {
                             startIcon={<AddIcon />}
                             style={{ color: "white" }}
                             onClick={() => {
-                                submitGrade(grade.id)
+                                submitGrade(grade)
 
                             }}
                         >
