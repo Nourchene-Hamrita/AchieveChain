@@ -1,4 +1,4 @@
-# 🎓 Academic-achievement application:
+# 🎓 Academic-achievement Application
 
 This is a web app for managing academic achievements, combining Moodle course and badge data with blockchain-backed achievement records and wallet-based authentication.
 The main user flow initializes Web3 and routing, signs users in, then lets them view courses and manage badges, competencies, and grades.
